@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="episodes.html">Episodes</a>
+            <a href="#art.html" class="active">Art</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="containerart" id="containerart"> 
+            <div class="gallery">
+                <img class="item" onclick="onClick(this)" src="img/art/1468710.jpg" alt="red woods">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E04_500.png" alt="fish">
+                <img class="item" onclick="onClick(this)" src="img/art/5698617.jpg" alt="slender man">
+                <img class="item" onclick="onClick(this)" src="img/art/5698744.jpg" alt="dark woods">
+                <img class="item" onclick="onClick(this)" src="img/art/S16E25_500.png" alt="key-face">
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_54d2ae06bb0c1b5645b66ae70e62b0a0_7c3b39ef_640.gif" alt="horror rudey gif">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E18_500.png" alt="zombie">
+            </div>
+            <div class="gallery">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E01_500.png" alt="shark">
+                <img class="item" onclick="onClick(this)" src="img/art/162375.jpg" alt="ghosts">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E09_500.png" alt="creepy goats">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E11_500.png" alt="fire clown">
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_c34c6aaf04bd38b3919305173d6e8a68_0dc15017_400.jpg" alt="zombie poster">
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_84ed2024881095735d536752d72fd82c_5b92f706_400.jpg" alt="women vampire">
+            </div>
+            <div class="gallery">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E20_500.png" alt="cemetery">
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_56c2dee9c31aea5772c3bd5355b0142d_c8d2d116_640.png" alt="serial killer">
+                <img class="item" onclick="onClick(this)" src="img/art/S16E02_500.png" alt="death monster">
+                <img class="item" onclick="onClick(this)" src="img/art/S16E16_500.png" alt="deer"> 
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_39047abf56ac251f83d8f1e5ecd0c727_078c8422_400.png" alt="scream serial killer">
+                <img class="item" onclick="onClick(this)" src="img/art/S17E03_500-500x303.png" alt="slim creature">
+            </div>
+            <div class="gallery">
+                <img class="item" onclick="onClick(this)" src="img/art/S17E01_500-500x303.png" alt="finger trees"> 
+                <img class="item" onclick="onClick(this)" src="img/art/S17E02_500.png" alt="mistery door">
+                <img class="item" onclick="onClick(this)" src="img/art/tumblr_229159d2c0afce9400bbcc1927192b49_24d78b7e_400.jpg" alt="skull girl">                                    
+                <img class="item" onclick="onClick(this)" src="img/art/96738.jpg" alt="creature in the woods"> 
+                <img class="item" onclick="onClick(this)" src="img/art/S16E01_500.png" alt="sea">
+                <img class="item" onclick="onClick(this)" src="img/art/S15E19_500.png" alt="tv in the woods">
+                <img class="item" onclick="onClick(this)" src="img/art/4831422.jpg" alt="foggy woods">          
+            </div>
+        </div>  
+    </main>
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width:100%">
+        </div>
+      </div>
+    <footer>
+        <ul class="footer-home">
+            <li><a href="index.html">TALES OF HORROR © 2021</a></li>
+        </ul>
+        <ul class="footer-social">
+            <li><a href="#">TWITTER</a></li>
+            <li><a href="#">YOUTUBE</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">SPOTIFY</a></li>
+        </ul>
+        <ul class="footer-button">
+            <a id="topbutton" href="#top"><img src="img/art/TOP.png" alt="top"></a>
+        </ul>
+    </footer>
+</body>
+</html>
